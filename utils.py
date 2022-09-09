@@ -44,7 +44,6 @@ def offline_message():
     :return: Json Object with standard answer.
     """
     return {
-        "printer_name": "Bresser REX II",
         "printer_status": "inactive",
         "printer_progress": "0",
         "temperature": {
