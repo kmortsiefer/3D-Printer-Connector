@@ -1,27 +1,13 @@
 {
     "printer": [
         {
-            "id": "rex1",
-            "name": "REX #1",
+            "id": "1",
+            "name": "Bresser REX II",
             "ip": "192.168.178.202",
             "port": 8899,
             "loop_time": 30,
             "api_addr": "http://127.0.0.1/api/",
-            "api_key": "a677193cf2ee501857e03ec4eab1ec0f24b0f58b477ba74f6f6432865a0c14a6",
-            "webhook_url": "",
-            "send_start_message": true,
-            "send_finish_message": true,
-            "start_message": "",
-            "finish_message": ""
-        },
-		{
-            "id": "rex2",
-            "name": "REX #2",
-            "ip": "192.168.178.203",
-            "port": 8899,
-            "loop_time": 30,
-            "api_addr": "http://127.0.0.1/api/",
-            "api_key": "a677193cf2ee501857e03ec4eab1ec0f24b0f58b477ba74f6f6432865a0c14a6",
+            "api_key": "API_KEY",
             "webhook_url": "",
             "send_start_message": true,
             "send_finish_message": true,

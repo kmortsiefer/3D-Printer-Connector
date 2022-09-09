@@ -49,10 +49,8 @@ def update_status(status, settings):
     :return: A request object containing all the information of that request
     """
 
-    status["printer_id"] = settings.get("id")
-    status["printer_name"] = settings.get("name")
     headers = {'key': settings.get("api_key")}
-    return requests.post(settings.get("api_addr"), json=status, headers=headers)
+    return requests.post(settings.get("api_addr"), json={"printer": [status]}, headers=headers)
 
 
 def main():
